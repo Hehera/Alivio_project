@@ -1,0 +1,17 @@
+Black - Header 
+Blue - container 
+Red - div header row 
+Green - три div,але щоб менше було блоків дів заміняємо на nav header logo1)logo img 2)ul,li(link) 3)link,button
+
+1.1
+
+red - section 
+blue - container 
+orange - div 
+gray - home heading, home-text, home-btn
+
+2.Red - section 
+blue - container 
+green - div and one more - Header
+black - 2 div
+black - 3 div

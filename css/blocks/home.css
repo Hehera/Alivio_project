@@ -1,0 +1,43 @@
+.home {
+    position: relative;
+    /* 175 поY 0 по X */
+    padding: 175px 0;
+    min-height: 895px;
+}
+
+.home-content {
+    max-width: 440px;
+}
+.home-heading {
+    margin-bottom: 30px;
+width: 440px;
+height: 148px;
+/* serif пишемо якшо по якісь причині не загрузиться Georgia */
+font-family: 'Georgia',serif;
+font-style: normal;
+font-weight: 700;
+font-size: 65px;
+color: #01996D;
+}
+.home-text {
+color: #484848;
+margin-bottom: 53px;
+max-width: 420px;
+}
+.home-btn {
+    display: flex;
+}
+
+.home-bg-img {
+z-index: -1;
+position: absolute;
+left: 0;
+top: 0;
+width: 100%;
+background-color: bisque;
+}
+.home-bg-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}

@@ -1,0 +1,26 @@
+ /* силці примусово стилізуєм разом з звичайним батн */
+ .btn, a.btn {
+    /* display: inline-block; треба дописади до height:51px; щоб працювало бо висота так не спрацювала бо це силка  */
+    display: inline-block;
+    height: 51px;
+    /* !!!Дальше,щоб вирівняти по центру текст пишемо до height:51px; ось це line-height: 51px; */
+    line-height: 51px;
+    background-color: #01996D;
+    padding-left: 50px;
+    padding-right: 50px;
+    color:#fff;
+    font-size: 20px;
+    font-weight: 400px;
+    border-radius:4px;
+    transition: opacity 0.2s ease;
+    }
+    
+    .btn:hover , a.btn:hover {
+        opacity: 0.8;
+        color:#fff;
+    }
+    
+    .btn-big, a.btn-big {
+    height: 65px;
+    line-height: 65px;
+    }

@@ -1,0 +1,59 @@
+.header {
+    padding-top: 17px;
+    padding-bottom: 17px;
+    border-bottom: 1px solid #D6D6D6;
+}
+.container {
+}
+.header_row {
+    display: flex;
+    /* Вертикальне вирівнювання по осі X,робиться коли висота кожного елемента різна  */
+    align-items: center;
+    
+}
+
+.header-nav {
+    margin-left: 172px;
+    font-weight: 500;
+    color:#292929;
+}
+
+.header-nav ul {
+display: flex;
+}
+
+.header-nav li + li {
+    margin-left: 70px;
+}
+/* Або так */
+/* .header-nav li:not(:last-child) {
+    margin-right: 70px;
+} */
+/* Або так можна */
+/* .header-nav li:last-child {
+    margin-right: 0px;
+} */
+.header-nav a {
+    transition: color 0.2s ease;
+}
+.header-nav a:hover {
+color: #01996D;
+}
+
+.header-login {
+    margin-left: auto;
+    display: flex;
+    align-items:center;
+}
+
+.header-login > * + * {
+    margin-left: 35px;
+}
+.header-login-link {
+   color:black;
+   transition: color 0.2s ease;
+}
+.header-login-link:hover {
+    color: #01996D;
+ 
+ }
