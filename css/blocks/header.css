@@ -3,7 +3,8 @@
     padding-bottom: 17px;
     border-bottom: 1px solid #D6D6D6;
 }
-.container {
+.header-logo {
+    background-color: azure;
 }
 .header_row {
     display: flex;
