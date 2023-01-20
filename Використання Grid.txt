@@ -1,0 +1,5 @@
+.how-it-works-steps {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 390px);
+    column-gap: 95px;
+}

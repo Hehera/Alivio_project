@@ -1,0 +1,51 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 20px 30px;
+  background-color: #fff;
+  width: 296px;
+  border-radius: 3px;
+  box-shadow: 0px 3.62249px 18.1125px rgba(165, 165, 165, 0.25);
+}
+
+
+.card ul {
+    font-size: 10px;
+    list-style-type: disc;
+    list-style-position: inside;
+}
+.card ul li + li {
+    margin-top: 20px;
+}
+.card-title {
+  position: relative;
+  font-weight: 600;
+  font-size: 14.49px;
+  line-height: 157%;
+  color: #000000;
+  padding-bottom: 12px;
+  margin-bottom: 13px;
+}
+
+.card-title::after {
+  position: absolute;
+  content: "";
+  width: 110.49px;
+  border: 0.745942px solid #000000;
+  left: -7px;
+  right: -7px;
+  bottom: 0;
+}
+.carts-content {
+  text-align: left;
+  padding-left: 6px;
+}
+.carts-content-title {
+    font-family: 'Georgia';
+font-style: normal;
+font-weight: 700;
+font-size: 15.9292px;
+line-height: 157%;
+margin-bottom: 22px;
+}
